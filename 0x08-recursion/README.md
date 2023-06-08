@@ -13,3 +13,5 @@
 6-is_prime_number.c -> Returns 1 if int passed is prime num else 0
 
 100-is_palindrome.c -> Returns 1 if string is palimdrome and 0 if otherwise
+
+101-wildcmp.c -> Compares if two strings are identical
