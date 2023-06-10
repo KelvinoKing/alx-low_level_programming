@@ -5,3 +5,5 @@
 2-args.c -> Prints all arguments it receives
 
 3-mul.c -> Multiplies two numbers
+
+4-add.c -> Program that adss positive numbers
