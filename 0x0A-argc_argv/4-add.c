@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * main - Entry point of programe
  * @argc: number of arguments
@@ -20,7 +21,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (*argv[i] >= 48 && *argv[i] <= 57)
+			if (isdigit(*argv[i]))
 				sum += atoi(argv[i]);
 			else
 			{
