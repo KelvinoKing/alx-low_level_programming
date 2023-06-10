@@ -2,6 +2,23 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
+ * checkDigits - checks if values entered are digits
+ * @s: parameter
+ *
+ * Return: int
+ */
+int checkDigits(char *s)
+{
+	while (*s)
+	{
+		if (!isdigit(*s))
+			return (0);
+		s++;
+	}
+	return (1);
+}
+
+/**
  * main - Entry point of programe
  * @argc: number of arguments
  * @argv: array of argumnets
@@ -21,7 +38,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (isdigit(*argv[i]))
+			if (checkDigits(argv[i]))
 				sum += atoi(argv[i]);
 			else
 			{
