@@ -1,6 +1,28 @@
 #include "main.h"
 #include <stdlib.h>
 /**
+ * free_all - frees all memory if ptr fails
+ * @ptr: pointer to pointer
+ *
+ * Return void
+ */
+void free_all(int **ptr, int width, int height)
+{
+	int i = 0, j = 0;
+
+	while (i < height)
+	{
+		j = 0;
+		while (j < width)
+		{
+			free(ptr[j]);
+			j++;
+		}
+		i++;
+	}
+	free(ptr);
+}
+/**
  * alloc_grid - Returns a pointer to a 2 dimensional array of ints
  * @width: number of columns
  * @height: number of rows
@@ -21,7 +43,6 @@ int **alloc_grid(int width, int height)
 	ptr = malloc(sizeof(*ptr) * height);
 	if (ptr == NULL)
 	{
-		free(ptr);
 		return (NULL);
 	}
 
@@ -32,8 +53,7 @@ int **alloc_grid(int width, int height)
 		ptr[i] = malloc(sizeof(int) * width);
 		if (ptr[i] == NULL)
 		{
-			free(ptr[i]);
-			return (NULL);
+			free_all(ptr, width, height);
 		}
 
 		/*Initialize array*/
