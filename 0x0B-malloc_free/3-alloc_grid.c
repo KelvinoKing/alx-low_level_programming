@@ -3,6 +3,8 @@
 /**
  * free_all - frees all memory if ptr fails
  * @ptr: pointer to pointer
+ * @width: number of colums
+ * @height: number of rows
  *
  * Return void
  */
