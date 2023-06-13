@@ -42,11 +42,11 @@ char *argstostr(int ac, char **av)
 
 	while (i < ac)
 	{
-		totalLen += _strlen(av[i]) + 2;
+		totalLen += _strlen(av[i]);
 		i++;
 	}
 
-	ptr = malloc(totalLen * sizeof(char));
+	ptr = malloc(totalLen * sizeof(*ptr));
 	if (ptr == NULL)
 	{
 		return (NULL);
