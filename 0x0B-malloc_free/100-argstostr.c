@@ -42,7 +42,7 @@ char *argstostr(int ac, char **av)
 
 	while (i < ac)
 	{
-		totalLen += _strlen(av[i]) + 1;
+		totalLen += _strlen(av[i]) + 2;
 		i++;
 	}
 
