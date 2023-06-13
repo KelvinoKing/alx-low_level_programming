@@ -54,6 +54,7 @@ int **alloc_grid(int width, int height)
 		if (ptr[i] == NULL)
 		{
 			free_all(ptr, width, height);
+			return (NULL);
 		}
 
 		/*Initialize array*/
