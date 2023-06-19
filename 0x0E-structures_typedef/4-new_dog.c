@@ -60,11 +60,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 		new_dog->name[i] = name[i];
 		i++;
 	}
+	new_dog->name[i++] = '\0';
 	while (j < _strlen(owner))
 	{
 		new_dog->owner[j] = owner[j];
 		j++;
 	}
+	new_dog->name[j++] = '\0';
 
 	return (new_dog);
 }
