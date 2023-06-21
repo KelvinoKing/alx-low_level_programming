@@ -21,12 +21,11 @@ int main(int argc, char *argv[])
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
 
-	if ((*get_op_func(argv[2]))(num1, num2))
+	if (get_op_func(argv[2]) == NULL)
 	{
 		printf("Error\n");
 		exit(99);
 	}
-
 	if ((num2 == 0 && *argv[2] == '/') ||
 		(num2 == 0 && *argv[2] == '%'))
 	{
