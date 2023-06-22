@@ -3,3 +3,5 @@
 1-print_numbers.c -> Prints all numbers passed as parameters
 
 2-print_strings.c -> Prints strings followed by new line
+
+3-print_all.c -> Prints anything
