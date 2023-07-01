@@ -9,3 +9,5 @@
 **2-add-node.c** - *Adds a node at the beginning of a list_t list*
 
 **3-add-node-end.c** - *Adds a node at the end of a list_t list*
+
+**4-free-list.c** - *Frees a list_t list*
