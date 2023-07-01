@@ -17,17 +17,12 @@ list_t *add_node(list_t **head, const char *str)
 	if (temp_node == NULL)
 		return (NULL);
 
-	if (str == NULL)
-	{
-		temp_node->str = NULL;
-		temp_node->len = 0;
-	}
-	else
+	if (str != NULL)
 	{
 		temp_node->str = strdup(str);
 		temp_node->len = strlen(temp_node->str);
-		temp_node->next = *head;
 	}
+	temp_node->next = *head;
 	*head = temp_node;
 
 	return (temp_node);
