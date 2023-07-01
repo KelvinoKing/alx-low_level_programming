@@ -6,4 +6,6 @@
 
 **1-list-len.c** - *Returns the number of elements in a linked list_t list*
 
-**2-add-node.c** - *Adds a node at the beginning of a list*
+**2-add-node.c** - *Adds a node at the beginning of a list_t list*
+
+**3-add-node-end.c** - *Adds a node at the end of a list_t list*
