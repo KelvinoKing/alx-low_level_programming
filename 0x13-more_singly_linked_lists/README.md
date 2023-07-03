@@ -9,3 +9,5 @@
 **3-add-nodeint-end.c** -> *Adds a node at the end of a listint_t list*
 
 **4-free-listint.c** -> *Frees a listint_t list*
+
+**5-free-listint2.c** -> *Frees a listint_t list and sets head to NULL*
