@@ -13,3 +13,5 @@
 **5-free-listint2.c** -> *Frees a listint_t list and sets head to NULL*
 
 **6-pop-listint.c** -> *Delets the head node of a listint_t linked list and returns the head node's data(n)*
+
+**7-get-nodeint.c** -> *Returns the nth node of a listint_t linked list*
