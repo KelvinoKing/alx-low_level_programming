@@ -3,3 +3,5 @@
 **0-print-listint.c** -> *Prints all the elements of a listint_t list*
 
 **1-listint-len.c** -> *Returns the number of elements in a linked list*
+
+**2-add-nodeint.c** -> *Adds a node at the beggining of a listint_t list*
