@@ -15,3 +15,5 @@
 **6-pop-listint.c** -> *Delets the head node of a listint_t linked list and returns the head node's data(n)*
 
 **7-get-nodeint.c** -> *Returns the nth node of a listint_t linked list*
+
+**8-sum-listint.c** -> *Returns sum of all the data(n) of a listint_t list*
