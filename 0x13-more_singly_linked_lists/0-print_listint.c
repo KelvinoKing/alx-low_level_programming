@@ -11,7 +11,7 @@ size_t print_listint(const listint_t *h)
 	listint_t *current;
 
 	if (h == NULL)
-		return (-1);
+		return (0);
 
 	current = h->next;
 	printf("%d\n", h->n);
