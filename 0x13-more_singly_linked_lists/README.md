@@ -19,3 +19,5 @@
 **8-sum-listint.c** -> *Returns sum of all the data(n) of a listint_t list*
 
 **9-insert-nodeint.c** -> *Returns a function that inserts a new node at a given position*
+
+**1--delete-nodeint.c** -> *Function that deletes the node at index index of a listint_t linked list*
