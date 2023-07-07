@@ -27,7 +27,7 @@ int get_bit(unsigned long int n, unsigned int index)
 		num /= 2;
 		i++;
 	}
-	if (index > num_divided)
+	if (index >= num_divided)
 		return (-1);
 	return (ptr[index]);
 }
