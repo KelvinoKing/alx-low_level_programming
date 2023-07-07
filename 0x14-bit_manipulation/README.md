@@ -7,3 +7,5 @@
 **1-print-bin.c** -> *Prints the binary rep of a number*
 
 **2-get-bit.c** -> *Returns the value of a bit at a given index*
+
+**3-set-bit.c** -> *Sets the value of a bit to 1 at a given index*
