@@ -9,3 +9,5 @@
 **2-get-bit.c** -> *Returns the value of a bit at a given index*
 
 **3-set-bit.c** -> *Sets the value of a bit to 1 at a given index*
+
+**4-clear-bit.c** -> *Sets the vaue of a bit to 0 at a given index*
