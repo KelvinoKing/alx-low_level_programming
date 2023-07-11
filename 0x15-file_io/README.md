@@ -5,3 +5,5 @@
 **1-create-file.c** -> *Creates a file*
 
 **2-append-text-to-file.c** -> *Appends text at end of file*
+
+**3-cp.c** -> *Copies the contents of a file to another file*
