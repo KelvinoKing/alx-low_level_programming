@@ -11,3 +11,5 @@
 **5-get-dnodeint.c** -> *Returns the nth node of a dlistint_t linked list*
 
 **6-sum-dlistint.c** -> *Returns the sum of all the data(n) of a dlistint_t list*
+
+**7-insert-dnodeint.c** -> *Inserts a new node at a given position*
