@@ -9,3 +9,5 @@
 **4-free-dlistint.c** -> *Frees a dlistint_t list*
 
 **5-get-dnodeint.c** -> *Returns the nth node of a dlistint_t linked list*
+
+**6-sum-dlistint.c** -> *Returns the sum of all the data(n) of a dlistint_t list*
