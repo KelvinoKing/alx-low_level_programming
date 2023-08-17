@@ -13,3 +13,5 @@
 **6-sum-dlistint.c** -> *Returns the sum of all the data(n) of a dlistint_t list*
 
 **7-insert-dnodeint.c** -> *Inserts a new node at a given position*
+
+**8-delete-dnodeint.c** -> *Deletes a node at a specified position*
