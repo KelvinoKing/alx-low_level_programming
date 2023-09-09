@@ -9,3 +9,5 @@
 ***3-hash_table_set.c*** -> *Adds an element to hash table*
 
 ***4-hash_table_get.c*** -> *Retrives a value associated with a key*
+
+***5-hash_table_print.c*** -> *Prints a hash table*
