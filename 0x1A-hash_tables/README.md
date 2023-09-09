@@ -11,3 +11,5 @@
 ***4-hash_table_get.c*** -> *Retrives a value associated with a key*
 
 ***5-hash_table_print.c*** -> *Prints a hash table*
+
+***6-hash_table_delete.c*** -> *Deletes a hash table*
