@@ -7,3 +7,5 @@
 ***2-key_index.c*** -> *Gives you the index of key*
 
 ***3-hash_table_set.c*** -> *Adds an element to hash table*
+
+***4-hash_table_get.c*** -> *Retrives a value associated with a key*
