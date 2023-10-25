@@ -5,15 +5,8 @@ OBJ=$(SRC:.c=.o)
 NAME=school
 RM=rm -f
 
-all:$(NAME)
-	@echo "$(CC) $(OBJ) -o $(NAME)"
-
-$(NAME):$(OBJ)
-	@$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
-
-%.o:%.c
-	@$(CC) $(CFLAGS) -c $< -o $@
-	@echo "$(CC) $(CFLAGS) -c -o $@ $<"
+all:$(OBJ)
+	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
 clean:
 	$(RM) *~ $(NAME)
