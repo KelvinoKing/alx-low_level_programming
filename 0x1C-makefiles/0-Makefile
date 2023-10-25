@@ -1,4 +1,2 @@
-CFLAGS=gcc
-
 all:main.c school.c
-	$(CFLAGS) main.c school.c -o school
+	gcc main.c school.c -o school
