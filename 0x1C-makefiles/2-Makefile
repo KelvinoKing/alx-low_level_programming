@@ -4,9 +4,7 @@ OBJ=$(SRC:.c=.o)
 NAME=school
 
 all:$(NAME)
-	@if [ ! -n "$(filter-out $<,$(wildcard $<))" ]; then \
-		echo "gcc $(OBJ) -o $(NAME)"; \
-		fi
+	@echo "gcc $(OBJ) -o $(NAME)"
 
 %.o: %.c
 	@$(CC) -c $< -o $@
