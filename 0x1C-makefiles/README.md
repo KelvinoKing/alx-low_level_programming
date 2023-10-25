@@ -7,3 +7,5 @@
 ***2-Makefile*** -> *all rule and more variables*
 
 ***3-Makefile*** -> *make -f 3-Makefile*
+
+***4-Makefile*** -> *Added C flags*
